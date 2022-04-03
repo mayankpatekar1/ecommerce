@@ -6,11 +6,11 @@ import { useRouter } from 'next/router';
 import data from '../../utils/data';
 import Layout from '../../components/Layout';
 import useStyles from '../../utils/styles';
-
+let {slug} = 'men';
 export default function ProductScreen() {
     const classes = useStyles();
     const router = useRouter();
-    const {slug}= router.query;
+    {slug}= router.query;
     let product = {};
     // console.log(typeof(slug));
     if(slug.startsWith('men')){
