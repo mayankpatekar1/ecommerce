@@ -1,3 +1,3 @@
-export default index = () =>{
+export default function index = () =>{
 
 }
